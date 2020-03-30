@@ -1,3 +1,4 @@
+#### Fork of [Amazon SNS Message Validator](https://github.com/aws/aws-js-sns-message-validator) with Promises
 # Amazon SNS Message Validator for JavaScript
 
 [![@awsforjs on Twitter](http://img.shields.io/badge/twitter-%40awsforjs-blue.svg?style=flat)](https://twitter.com/awsforjs)
@@ -10,16 +11,16 @@ library is standalone and does not depend on the AWS SDK for JavaScript.
 
 ## Installation
 
-The npm module's name is [`sns-validator`](https://www.npmjs.com/package/sns-validator). Install with npm or yarn:
+The npm module's name is [`aws-sns-validator`](https://www.npmjs.com/package/aws-sns-validator). Install with npm or yarn:
 
 ```
-npm i sns-validator
+npm i @nathancahill/sns-validator
 ```
 
 or 
 
 ```
-yarn add sns-validator
+yarn add @nathancahill/sns-validator
 ```
 
 ## Basic Usage

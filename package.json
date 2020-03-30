@@ -1,10 +1,10 @@
 {
-  "name": "sns-validator",
+  "name": "@nathancahill/sns-validator",
   "version": "0.3.4",
   "description": "A standalone validator for inbound SNS HTTP messages. No dependency on the AWS SDK for JavaScript.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-js-sns-message-validator.git"
+    "url": "https://github.com/nathancahill/aws-js-sns-message-validator.git"
   },
   "main": "index.js",
   "devDependencies": {
