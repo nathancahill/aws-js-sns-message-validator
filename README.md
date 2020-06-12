@@ -56,7 +56,7 @@ var MessageValidator = require('sns-validator'),
     validator = new MessageValidator();
 
 validator.validate(message)
-    then(function (message) {
+    .then(function (message) {
         // message has been validated and its signature checked.
     })
     .catch(function (err) {
